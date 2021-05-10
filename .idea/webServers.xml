@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a46abc0f-c1b4-4ced-87de-e95f5df19060" name="Ubuntu-Fabric" url="192.168.44.48">
+        <fileTransfer rootFolder="/home/coldwell" accessType="SFTP" host="192.168.44.48" port="22" sshConfigId="6a98d7e7-3149-43c2-ada0-4666042f01bf" sshConfig="coldwell@192.168.44.48:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

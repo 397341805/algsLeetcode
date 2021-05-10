@@ -8,12 +8,12 @@ package basicDataStructure;
  */
 
 
-public class TreeNode {
-    public int getVal() {
+public class TreeNode<T> {
+    public T getVal() {
         return val;
     }
 
-    public void setVal(int val) {
+    public void setVal(T val) {
         this.val = val;
     }
 
@@ -33,12 +33,12 @@ public class TreeNode {
         this.right = right;
     }
 
-    int val;
+    T val;
     TreeNode left;
     TreeNode right;
     public TreeNode() {}
-    public TreeNode(int val) { this.val = val; }
-    public TreeNode(int val, TreeNode left, TreeNode right) {
+    public TreeNode(T val) { this.val = val; }
+    public TreeNode(T val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
