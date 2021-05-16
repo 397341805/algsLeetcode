@@ -2,11 +2,10 @@ package basicDataStructure;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
+
 import basicDataStructure.TreeNode;
+import jdk.internal.org.objectweb.asm.tree.analysis.Value;
 /**
  * @Classname treeBasicOperation
  * @Description TODO
@@ -22,6 +21,16 @@ public class Tree<T> {
  public Tree(){
   this.root = null;
  }
+
+// public TreeNode<T> preCreateTree(TreeNode<T> t){
+//  Scanner sc = new Scanner(System.in);
+//  T tmp = sc.next();
+//  TreeNode<T> root = new TreeNode<T>();
+//  root.setVal(Value[0]);
+//  for (T e:Value){
+//
+//  }
+// }
  /**
   使用getTree方法将层次遍历序列构建一个二叉树
   */

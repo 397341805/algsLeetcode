@@ -6,5 +6,5 @@ package leetcode_872;
  * @Date 2021/5/10 20:46
  * @Created by Fabric
  */
-public class Solution {
+public class Solution   {
 }
