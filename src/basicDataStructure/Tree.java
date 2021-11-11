@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 import basicDataStructure.TreeNode;
-import jdk.internal.org.objectweb.asm.tree.analysis.Value;
+//import jdk.internal.org.objectweb.asm.tree.analysis.Value;
 /**
  * @Classname treeBasicOperation
  * @Description TODO
@@ -83,12 +83,12 @@ public class Tree<T> {
   ArrayList list = new ArrayList();
   int i=1;
   while (p!=null){
-   if(isG(i)){
-    list.add(p.getVal());
-   }
-   i++;
-   if(p.left!=null){
-    queue.add(p.left);
+      if(isG(i)){
+           list.add(p.getVal());
+      }
+      i++;
+      if(p.left!=null){
+          queue.add(p.left);
    }
    if(p.right!=null){
     queue.add(p.right);

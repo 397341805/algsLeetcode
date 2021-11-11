@@ -10,7 +10,7 @@ import java.util.HashSet;
  * @Created by Fabric
  */
 public class Hash <T> {
-    public static void main(String[] args) {
-        HashSet
-    }
+//    public static void main(String[] args) {
+//        HashSet
+//    }
 }
